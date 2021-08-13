@@ -12,11 +12,12 @@
 /*elementos base*/
 
 body{
-    background: var(--preto);
+    background: var(--vermelho);
     font-family: 'Arial', Times, serif;
     color: white;
 }
 header .container{
+    background-color: var(--vermelho);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -25,19 +26,19 @@ header .container{
 
 header .logo{
     margin-left: 5px;
-    color: var(--vermelho);
+    color: var(--preto);
     font-family: 'Arial Black', Times;
     font-size: 40px;
 }
 
 header nav a{
     text-decoration: none;
-    color: #AAA;
+    color: white;
     margin-right: 10px;
 }
 
 header nav a:hover{
-    color: #fff;
+    color: black;
 }
 
 /*filme principal*/
@@ -104,5 +105,6 @@ header nav a:hover{
 }
 
 .carrosel-filmes{
+    background-color: var(--preto);
     margin-top: 5px;
 }
